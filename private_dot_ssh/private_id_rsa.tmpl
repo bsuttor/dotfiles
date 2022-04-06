@@ -1,1 +1,1 @@
-{{ (bitwarden "item" "id_rsa").notes }}
+{{ (bitwarden "item" "private_id_rsa").notes | b64dec }}
