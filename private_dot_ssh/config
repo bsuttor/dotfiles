@@ -1,0 +1,355 @@
+#LogLevel=error
+
+#TCPKeepAlive=yes
+#ServerAliveInterval=15
+#ServerAliveCountMax=6
+#Compression=yes
+#ControlMaster auto
+#ControlPath /tmp/%r@%h:%p
+#ControlPersist yes
+#
+#
+
+Host smartweb1
+Hostname smartweb1.prod.imio.be
+User bsuttor
+
+Host smartweb2
+Hostname smartweb2.prod.imio.be
+User bsuttor
+
+
+Host pgcluster-client1
+Hostname pgcluster-client1.prod.imio.be
+User bsuttor
+
+Host api-staging
+Hostname api1.staging.imio.be
+User bsuttor
+
+Host api
+Hostname api1.prod.imio.be
+User bsuttor
+
+Host authentic-staging
+HostName sso1.staging.imio.be
+User bsuttor
+
+Host authentic
+HostName authentic.imio.be
+User bsuttor
+
+Host choria
+HostName choria-prod1.imio.be
+User bsuttor
+
+Host migration
+HostName migration.imio.be
+User bsuttor
+
+Host gitlab
+HostName gitlab-prod1.imio.be
+User bsuttor
+
+Host memory
+HostName memory-prod1.imio.be
+User bsuttor
+
+Host orchestrator1
+HostName orchestrator1.imio.be
+User root
+IdentityFile ~/.ssh/imio_id_rsa
+ForwardAgent yes
+
+Host bibliotheca
+HostName bibliotheca.imio.be
+User bsuttor
+
+Host intranet
+HostName intranet-imio.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host test
+HostName srv-test.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host site-prod
+HostName site-prod.interne.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host site-prod2
+HostName site-prod2.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host site-prod3
+HostName site-prod3.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host site-prod4
+HostName site-prod4.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host site-prod5
+HostName site-prod5.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+
+Host site-prod6
+HostName site-prod6.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host site-prod7
+HostName site-prod7.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host site-prod8
+HostName site-prod8.imio.be
+User bsuttor
+
+Host site-prod9
+HostName site-prod9.imio.be
+User bsuttor
+
+Host site-prod10
+HostName site-prod10.imio.be
+User bsuttor
+
+Host site-prod11
+HostName site-prod11.imio.be
+User bsuttor
+
+Host site-prod12
+HostName site-prod12.imio.be
+User bsuttor
+
+Host site-prod13
+HostName site-prod13.imio.be
+User bsuttor
+
+Host site-prod14
+HostName site-prod14.imio.be
+User bsuttor
+
+Host site-prod15
+HostName site-prod15.imio.be
+User bsuttor
+
+Host site-prod16
+HostName site-prod16.imio.be
+User bsuttor
+
+Host site-prod17
+HostName site-prod17.imio.be
+User bsuttor
+Host site-prod15
+HostName site-prod15.imio.be
+User bsuttor
+
+Host pm-prod
+HostName pm-prod.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host pm-prod2
+HostName pm-prod2.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host pm-prod3
+HostName pm-prod3.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host pm-prod4
+HostName pm-prod4.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host pm-prod5
+HostName pm-prod5.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host urban-prod
+HostName urban-prod.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host urban-prod2
+HostName urban-prod2.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host urban-prod3
+HostName urban-prod3.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+
+Host jenkins
+HostName jenkins.interne.imio.be
+User jenkins
+IdentityFile ~/.ssh/id_rsa
+
+Host jenkins-with-bsuttor
+HostName jenkins.interne.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host puppetserver
+HostName puppetserver-prod1.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+
+Host staging
+# HostName staging.imio.be
+HostName 10.9.201.6
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host site-staging1
+HostName site-staging1.staging.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host site-staging2
+HostName site-staging2.staging.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host devel
+HostName devel.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host hal
+# 192.168.6.11
+Hostname 10.9.200.17
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host hal-mornimont
+Hostname mornimont.imio.be
+User zope
+IdentityFile ~/.ssh/id_rsa
+
+Host frontend1
+Hostname frontend1.interne.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host frontend2
+Hostname frontend2.lan.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host frontend3
+Hostname frontend3.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host frontend4
+Hostname frontend-prod4.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+
+Host frontend-staging
+Hostname frontend-staging.staging.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+
+Host devpi
+Hostname 10.9.201.109 
+User root
+IdentityFile ~/.ssh/imio_id_rsa
+
+Host tools
+Hostname tools.lan.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host aptly
+Hostname aptly.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host geoserver
+Hostname geoserver.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host pre-prod2
+HostName pre-prod2.lan.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host pre-prod3
+HostName pre-prod3.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host pre-prod4
+HostName pre-prod4.lan.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host database
+HostName database.imio.be
+User root
+IdentityFile ~/.ssh/id_rsa
+
+Host aes
+HostName aes-prod1.imio.be
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host mattermost
+HostName 95.216.205.101
+User root
+
+Host liege
+HostName site-liege1.prod.imio.be
+User bsuttor
+
+### Perso ###
+Host nuc
+Hostname 192.168.1.185
+User bsuttor
+IdentityFile ~/.ssh/id_rsa
+
+Host synology
+HostName suttor.synology.me
+User admin
+IdentityFile ~/.ssh/id_rsa
+
+Host odroid
+HostName 192.168.1.54
+User root
+
+Host contabo
+HostName 173.249.42.173
+User plone
