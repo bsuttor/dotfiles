@@ -1,0 +1,27 @@
+[user]
+	name = Benoit Suttor
+	email = benoit.suttor@imio.be
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	lg = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    pr = !sh -c \"git fetch upstream pull/${1}/head:pr/${1} && git checkout pr/${1}\"
+[push]
+	default = simple
+[core]
+	excludesfile = /home/bsuttor/.gitignore
+	editor = /usr/bin/vim
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+
+[github]
+	user = bsuttor
+[init]
+	defaultBranch = main
