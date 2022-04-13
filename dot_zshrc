@@ -125,7 +125,7 @@ alias rg='rg -L'
 alias vim="nvim"
 alias vi="nvim"
 alias oldvim="vim"
-alias python3.8="/opt/Python-3.8.12/python"
+#alias python3.8="/opt/Python-3.8.12/python"
 
 export NOMAD_CLIENT_KEY=/home/bsuttor/projects/imio.clientcert/staging/bsuttor.key
 export NOMAD_CLIENT_CERT=/home/bsuttor/projects/imio.clientcert/staging/bsuttor.crt
