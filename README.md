@@ -30,7 +30,7 @@ Install bitwarden-cli and chezmoi on your computer
 
 Start chezmoi to get our config
 
-    chezmoi init --apply https://github.com/bsuttor/dotfiles.git
+    chezmoi init --apply git@github.com:bsuttor/dotfiles.git
 
 # Install other pacakges
 
