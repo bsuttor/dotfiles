@@ -70,4 +70,4 @@ first, install wireguard:
 
 ## Python
 
-    sudo apt install python3.9-venv python3-dev libpq-dev
+    sudo apt install python3.9-venv python3-dev libpq-dev libsqlite3-dev
