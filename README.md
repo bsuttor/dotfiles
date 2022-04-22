@@ -60,6 +60,17 @@ first, install wireguard:
 
 ## Flameshot
 
+    sudo apt install flameshot
+
+Remove default print screen to use flameshot instead
+
+	gsettings set org.gnome.settings-daemon.plugins.media-keys screenshot '[]'
+
+Go to Settings > Keyboard and press the '+' button at the bottom.
+Name the command as you like it, e.g. flameshot. And in the command insert /usr/bin/flameshot gui.
+Then click "Set Shortcut.." and press Prt Sc. This will show as "print".
+
+
 ## Diodon
 
 ## Socials
