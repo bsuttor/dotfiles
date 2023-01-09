@@ -127,6 +127,6 @@ alias vi="nvim"
 alias oldvim="vim"
 #alias python3.8="/opt/Python-3.8.12/python"
 
-export NOMAD_CLIENT_KEY=/home/bsuttor/projects/imio.clientcert/staging/bsuttor.key
-export NOMAD_CLIENT_CERT=/home/bsuttor/projects/imio.clientcert/staging/bsuttor.crt
-export NOMAD_ADDR=https://nomad.staging.imio.be/
+# FZF
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
