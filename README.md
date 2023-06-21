@@ -29,6 +29,8 @@ Modify .bashrc to start tmux
 
 # Install chezmoi and bitwarden cli
 
+# Install atuin.sh to sync bash history
+
 ## Installation
 
 Install bitwarden-cli and chezmoi on your computer
