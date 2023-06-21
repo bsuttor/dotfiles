@@ -284,7 +284,7 @@ User root
 IdentityFile ~/.ssh/imio_id_rsa
 
 Host tools
-Hostname tools.lan.imio.be
+Hostname tools001.prod.imio.be
 User root
 IdentityFile ~/.ssh/id_rsa
 
@@ -353,3 +353,7 @@ User root
 Host contabo
 HostName 173.249.42.173
 User plone
+
+Host oracle
+HostName 141.145.208.73
+User ubuntu
